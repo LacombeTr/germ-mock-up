@@ -15,11 +15,11 @@ const Banner: React.FC<BannerProps>  = ({title}) => {
             </div>
 
             <div className=" flex ">
-                <Homebuttons title={"Databases"} />
-                <Homebuttons title={"Events"}/>
-                <Homebuttons title={"Tools"}/>
-                <Homebuttons title={"Publications"}/>
-                <Homebuttons title={"Links"}/>
+                <Homebuttons title={"Databases"} url={"/"}/>
+                <Homebuttons title={"Events"} url={"/"}/>
+                <Homebuttons title={"Tools"} url={"/"}/>
+                <Homebuttons title={"Publications"} url={"/"}/>
+                <Homebuttons title={"Links"} url={"/"}/>
             </div>
         </div>
     );

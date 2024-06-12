@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { IoMdSearch } from "react-icons/io";
+import Link from "next/link";
 
 
 
@@ -32,7 +33,7 @@ const Hero = () => {
                             placeholder="Search for a rock type or locality"
                         />
                         <div className="flex items-center justify-center h-full w-10 rounded-full bg-gradient-to-b from-amber-600 to-amber-800 text-3xl text-white duration-200 hover:scale-125">
-                            <IoMdSearch />
+                            <Link href={"/search"}> <IoMdSearch /> </Link>
                         </div>
                     </div>
                 </div>
